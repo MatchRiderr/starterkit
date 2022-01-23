@@ -1,6 +1,6 @@
 {
-  "appId": "com.example.app",
-  "appName": "nextjs-tailwind-capacitor",
+  "appId": "com.riderr.starterkit",
+  "appName": "riderr-starterkit",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "out",
