@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "build-all": "npm install --pure-lockfile && npm run build && npm run export && npx cap copy",
+    "build-all": "npm install --pure-lockfile && npx cap sync && npm run build && npm run export && npx cap copy",
     "dev": "npm run build-all && next dev",
     "open-ios": "npm run build-all && npx cap open ios",
     "open-android": "npm run build-all && npx cap open android",
